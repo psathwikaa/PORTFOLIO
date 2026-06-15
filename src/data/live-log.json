@@ -1,0 +1,20 @@
+[
+  {
+    "date": "May 2026",
+    "title": "CS50P (Harvard)",
+    "status": "Completed",
+    "description": "Strengthened advanced Python fundamentals, data structures, file I/O, regular expressions, and unit testing using pytest."
+  },
+  {
+    "date": "June 15, 2026",
+    "title": "Kaggle Agentic AI Course",
+    "status": "In Progress",
+    "description": "Currently completing the intensive Agentic AI course, focusing on building node-based agents, state management, and memory routing."
+  },
+  {
+    "date": "June 2026",
+    "title": "Google ADK Hackathon Agent",
+    "status": "In Progress",
+    "description": "Developing an autonomous assistant utilizing the Google App Development Kit and Gemini API for task automation."
+  }
+]
