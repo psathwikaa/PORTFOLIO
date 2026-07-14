@@ -5,6 +5,7 @@ interface LogEntry {
   title: string;
   status: string;
   description: string;
+  tags?: string[];
 }
 
 export default function LiveLog() {
@@ -47,6 +48,19 @@ export default function LiveLog() {
               <p className="text-zinc-400 text-xs md:text-sm leading-relaxed max-w-xl">
                 {log.description}
               </p>
+              
+              {log.tags && log.tags.length > 0 && (
+                <div className="mt-2.5 flex flex-wrap gap-1.5" aria-label="Tags">
+                  {log.tags.map((tag, tIdx) => (
+                    <span
+                      key={tIdx}
+                      className="rounded bg-charcoal border border-zinc-800/80 px-2 py-0.5 text-[10px] font-mono text-zinc-500 font-medium"
+                    >
+                      #{tag}
+                    </span>
+                  ))}
+                </div>
+              )}
             </div>
           );
         })}

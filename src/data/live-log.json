@@ -1,5 +1,12 @@
 [
   {
+    "title": "Master's Thesis — Submitted",
+    "description": "Completed and submitted my MSc thesis: Adapting ISO 25010 for Gesture-Based AAC Applications. Ran 115 trials, built a custom evaluation tool, deployed an interactive quality report, and delivered findings to industry partner 2Tango Signs.",
+    "status": "Completed",
+    "date": "July 2026",
+    "tags": ["Research", "AAC", "ISO 25010", "2Tango Signs"]
+  },
+  {
     "date": "May 2026",
     "title": "CS50P (Harvard)",
     "status": "Completed",
